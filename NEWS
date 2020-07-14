@@ -1,0 +1,8 @@
+Changes in version 1.99.0 (2019-04-24)
+- The following changes have been made primarily in this release:
+- 1. Add a confidence interval for the curve
+- 2. Modify GuitarcoordinateTXDB to remove the generation of the bin interval of the guitar coordinate system.
+- 3. Sampling the input site information file.
+- 4. Change the coordinate  structure and normalize the abscissa of the coordinate system to the interval 0~1.
+- 5. Change the composition and calculation of weight in the density drawing method.
+- 6. Open various parameters in the drawing process to the user for selection.

@@ -1,0 +1,22 @@
+
+
+
+citEntry(entry="article",
+         title = "Guitar: an R/Bioconductor package for gene annotation guided transcriptomic analysis of RNA related genomic features",
+         author = personList( as.person("Xiaodong Cui"), 
+                              as.person("Zhen Wei"),
+                              as.person("Lin Zhang"),
+                              as.person("Hui Liu"),
+                              as.person("Lei Sun"),
+                              as.person("shao-Wu Zhang"),
+                              as.person("Yufei Huang"),
+                              as.person("Jia Meng")),
+         year = 2016,
+         journal = "BioMed Research International",
+         
+         textVersion = 
+           paste("X. Cui, Z. Wei, L. Zhang, H. Liu, L. Sun, S.W. Zhang, Y. Huang, and J. Meng, ",
+                 "Guitar: an R/Bioconductor package for gene annotation guided transcriptomic analysis of RNA related genomic features,",
+                 " BioMed Research International, 2016" ) )
+                 
+                 

@@ -1,0 +1,27 @@
+Package: Guitar
+Type: Package
+Title: Guitar
+Version: 2.4.0
+Date: 2019-04-26
+Author: Xiao Du, Hui Liu, Lin Zhang, Jia Meng
+Maintainer: Jia Meng <jia.meng@xjtlu.edu.cn>
+Description: The package is designed for visualization 
+	of RNA-related genomic features with respect to the landmarks of RNA transcripts, i.e.,
+	transcription starting site, start codon, stop codon and transcription ending site. 
+License: GPL-2
+Depends: GenomicFeatures, rtracklayer,AnnotationDbi, GenomicRanges,
+        magrittr, ggplot2, methods, stats,utils ,knitr,dplyr
+import: GenomicFeatures, rtracklayer,AnnotationDbi, GenomicRanges,
+        magrittr, ggplot2, methods, stats,utils,dplyr
+biocViews: Sequencing, SplicedAlignment, Alignment, DataImport, RNASeq,
+        MethylSeq, QualityControl, Transcription
+NeedsCompilation: no
+Packaged: 2020-04-28 02:13:11 UTC; biocbuild
+Encoding: UTF-8
+RoxygenNote: 6.1.1
+VignetteBuilder: knitr
+git_url: https://git.bioconductor.org/packages/Guitar
+git_branch: RELEASE_3_11
+git_last_commit: c9e3dd5
+git_last_commit_date: 2020-04-27
+Date/Publication: 2020-04-27
