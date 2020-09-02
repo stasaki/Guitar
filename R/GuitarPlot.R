@@ -370,6 +370,7 @@ GuitarPlot <- function(txGTF = NULL,
                             txTxdb = NULL,
                             txGuitarTxdb = NULL,
                             txGuitarTxdbSaveFile = NA, 
+                            txGuitarIntermediateSaveFile = NA, 
                             stBedFiles = NULL, 
                             stGRangeLists = NULL,
                             stGroupName = NULL,
@@ -471,6 +472,10 @@ GuitarPlot <- function(txGTF = NULL,
       pointWeight[[txType]][[GroupName]] <- sitesPointsNormlize[[txType]][[GroupName]][[2]]
     }
   }
+  if (!(is.na(txGuitarIntermediateSaveFile))) {
+    save(sitesPointsNormlize,sitesPointsRelative,pointWeight, file = txGuitarIntermediateSaveFile)
+  }
+  
   p_list = list()
   for (txType in pltTxType)
   {
