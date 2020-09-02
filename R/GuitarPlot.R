@@ -473,7 +473,7 @@ GuitarPlot <- function(txGTF = NULL,
     }
   }
   if (!(is.na(txGuitarIntermediateSaveFile))) {
-    save(sitesPointsNormlize,sitesPointsRelative,pointWeight, file = txGuitarIntermediateSaveFile)
+    save(sitesGroup,sitesPointsNormlize,sitesPointsRelative,pointWeight, file = txGuitarIntermediateSaveFile)
   }
   
   p_list = list()
